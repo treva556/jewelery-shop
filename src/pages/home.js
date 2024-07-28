@@ -1,6 +1,7 @@
 
 import React from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function Main() {
   return (
@@ -10,6 +11,8 @@ function Main() {
       </header>
       <div className='pp'>
         Jewelery shop website
+        <Link to='https://aarkcollective.com/' className='h'></Link>
+        <p>https://aarkcollective.com/  </p>
       </div>
       <div className='foot'>
       <p className='wtext'> footer </p>
