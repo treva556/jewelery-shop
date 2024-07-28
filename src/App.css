@@ -46,5 +46,15 @@
 }
 
 .vv {
-  background-color: green;
+  background-color: black;
+  padding:2px;
 }
+
+.foot {
+  padding:40px;
+ background-color: black;
+}
+
+.wtext {
+  color: white;
+ }
