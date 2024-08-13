@@ -1,25 +1,41 @@
 
 import React from 'react';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import Nav from '../components/nav';
+// import { Link } from 'react-router-dom';
 
 function Main() {
   return (
     <div className="App">
       <header className="vv">
-      <p className='wtext'> Nav   shop   About</p> 
+      <Nav/>
+      <div className='pp'> 
+        img
+      </div>
       </header>
-      <div className='pp'>
-        Jewelery shop website
-        <Link to='https://aarkcollective.com/' className='h'></Link>
-        <p>https://aarkcollective.com/  </p>
-      </div>
-      <div className='foot'>
-      <p className='wtext'> footer </p>
-      </div>
-      
+          
+      <div className=' mt-1 pp'>
+            A short About
+        </div>  
+          <div className=' mt-1 pp'>
+            Items
+        </div>    
+        <div className=' mt-1 pp'>
+            Most popular
+        </div>  
+        <div className=' mt-1 pp'>
+            New arrivals
+      </div>  
+        <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+        <div className=' mt-1 pp'>
+            Im 1
+        </div>  
+        <div className=' mt-1 pp'>
+            Im 2
+        </div>  
+     </div>
     </div>
   );
-}
+} 
 
 export default Main;
